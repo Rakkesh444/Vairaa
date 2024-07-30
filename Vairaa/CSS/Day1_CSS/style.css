@@ -1,0 +1,73 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    max-width: 100%;
+    background-color: #353434;
+    color: #fff;
+}
+
+.container {
+    margin: 80px;
+}
+
+.Box {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+h1.Title {
+    color: rgb(46, 241, 62);
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(46, 241, 62);
+    width: fit-content;
+}
+
+.Sub_Title {
+    color: #f88a77;
+    border-bottom: 1px solid #f88a77;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+/* Font Size */
+.fontsize p.Size {
+    font-size: 50px;
+}
+
+.fontsize p.Upper {
+    font-size: small;
+}
+
+/* Font Weight */
+.font_W p.Size {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.font_W p.Upper {
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+/* Text Tranformation */
+.Text_Trans p.Txt {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.Text_Trans p.Txt_1 {
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.Text_Trans a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+}
