@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    max-width: 100%;
+    /* background: linear-gradient(to right, #ad5389, rgb(60, 16, 83)); */
+    /* background: radial-gradient(circle at -1% 57.5%, #13aa52 0%, rgb(0, 102, 43) 90%); */
+}
+
+body a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+    background-color: rgba(45, 45, 45, .9);
+    /* border-radius: 5px; */
+}
+
+nav .Title {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.Menus {
+    display: flex;
+}
+
+nav ul {
+    margin-right: 100px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: .6s;
+}
+
+nav ul li a:hover {
+    color: #e00c64;
+    transition: .6s;
+}
+
+nav .btn a {
+    background-color: #e00c64;
+    color: #ffffff;
+    padding: 2px 13px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #e00c64;
+}
