@@ -10,8 +10,7 @@
 body {
     height: 100vh;
     max-width: 100%;
-    /* background: linear-gradient(to right, #ad5389, rgb(60, 16, 83)); */
-    /* background: radial-gradient(circle at -1% 57.5%, #13aa52 0%, rgb(0, 102, 43) 90%); */
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
 }
 
 body a {
@@ -25,7 +24,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px 10px 20px;
-    background-color: rgba(45, 45, 45, .9);
+    background-color: rgba(45, 45, 45, .2);
     /* border-radius: 5px; */
 }
 
@@ -55,14 +54,34 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e00c64;
+    color: #bb08f1;
     transition: .6s;
 }
 
 nav .btn a {
-    background-color: #e00c64;
     color: #ffffff;
-    padding: 2px 13px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px #e00c64;
+}
+
+/* Home Page Styling */
+.Home-Page {
+    height: 90vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Home-Page .Content {
+    color: #ffffff;
+    text-align: center;
+}
+
+.Home-Page .Content h1.Brand-Name {
+    font-size: 55px;
+    font-weight: 200;
+}
+
+.Home-Page .Content h4.Description {
+    font-weight: 500;
+    margin-bottom: 10px;
 }
