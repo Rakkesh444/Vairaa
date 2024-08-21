@@ -85,3 +85,68 @@ nav .btn a {
     font-weight: 500;
     margin-bottom: 10px;
 }
+
+/* Home Page Styling End */
+/* About Page Start */
+.About-Page {
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About-Page .Aboute-text {
+    color: #ffffff;
+    width: 50%;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.Aboute-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.Aboute-text p.Text-1 {
+    font-size: 20px;
+}
+
+.About-Page .Icons {
+    margin-top: 20px;
+}
+
+.About-Page .Icons span {
+    margin-left: 20px;
+}
+
+/* Contact-Page */
+.Contact-Page {
+    height: 100vh;
+    max-width: 100%;
+    /* background-color: rgba(45, 45, 45, .2); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Contact-Page h1 {
+    position: relative;
+    top: -90px;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.Contact-Page p {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.Contact-Page .icon i {
+    padding-left: 20px;
+    color: #ff70bf;
+    font-size: 20px;
+    margin-top: 20px;
+}
